@@ -43,7 +43,7 @@ Portfolio Navigation
   vertical-align: middle;
 }
 .cd-3d-portfolio-navigation h1 {
-  font-size: 2rem;
+  font-size: 6rem;
   margin-bottom: .6em;
   font-family: 'Coiny', cursive;
   font-weight: bold;
@@ -72,7 +72,8 @@ Portfolio Navigation
 }
 @media only screen and (min-width: 768px) {
   .cd-3d-portfolio-navigation h1 {
-    font-size: 3.2rem;
+    font-size: 5.2rem;
+	
   }
 }
 
