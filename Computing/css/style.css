@@ -24,6 +24,11 @@ a {
   color: #72a987;
   text-decoration: none;
 }
+p {
+  color: black;
+  text-decoration: none;
+}
+
 
 /* -------------------------------- 
 
@@ -626,7 +631,7 @@ Back to top
 /* button code */
 .link{
 	color: #000000;
-	font-size: 16px;
+	font-size: 90px;
 	font-weight: 700;
 
 	text-decoration: none;
@@ -638,26 +643,22 @@ Back to top
 */
 
 .link{
-	position: relative;
+	position: center;
 	z-index: 1;
 	display: inline-flex;
 	
-	padding-left: 10px;
-	padding-bottom: 5px;
-	padding-right: 10px;
+	padding-left: 1000px;
+	padding-bottom: 500px;
+	padding-right: 10000px;
 }
 
 .link::before{
 	content: "";
-	width: 100%;
-	height: 100%;
+	size: 1000px ;
 	background-image: linear-gradient(to top, #fed330 25%, transparent 40%);
 	
 	position: absolute;
-	left: 0;
-	bottom: 2px;
-	z-index: -1;
-	
+	position: center ;
 	will-change: width;
 	transform: rotate(-2deg);
 	transform-origin: left bottom
@@ -678,4 +679,21 @@ Back to top
 .link:hover::before{
 	transition-duration: .15s;
 }
+blockquote {
+  font: 1.4em 'Berkshire Swash', cursive;
+  margin: 0;
+}
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 
